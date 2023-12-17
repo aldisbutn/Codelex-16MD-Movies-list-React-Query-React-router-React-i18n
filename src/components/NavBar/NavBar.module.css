@@ -1,0 +1,23 @@
+.navBarWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.navBarHeading {
+    margin: 0;
+    text-decoration: none;
+    color: #EFEFEF;
+    transition: 0.3s;
+
+    &:hover {
+        color: #8636ee;
+    }
+
+    &.active {
+        color: #B78BF2;
+    }
+
+}
+

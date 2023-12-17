@@ -1,0 +1,33 @@
+.button {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #151536;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 6px;
+  max-width: 150px;
+}
+
+.deleteButton {
+  background-color: #bd2f2a;
+  border: 1px solid #bd2f2a;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #151536;
+    color: #bd2f2a;
+  }
+}
+
+.addButton {
+  background: #30ae27;
+  border: 1px solid #30ae27;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #151536;
+    color: #30ae27;
+  }
+}

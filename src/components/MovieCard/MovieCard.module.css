@@ -1,0 +1,12 @@
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.headingMain, .headingSecondary {
+    margin: 0;
+}
+
+.headingSecondary {
+    color: #f3eba2;
+}

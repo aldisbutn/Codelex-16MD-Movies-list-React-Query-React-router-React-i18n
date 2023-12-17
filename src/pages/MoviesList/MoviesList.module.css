@@ -1,0 +1,24 @@
+.moviesListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.moviesHeading {
+  margin: 0;
+  text-decoration: none;
+  color: #efefef;
+  transition: 0.3s;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+
+  &:hover {
+    color: #8636ee;
+    border: 1px dotted #8636ee;
+  }
+}

@@ -1,0 +1,26 @@
+hr {
+    width: 100%;
+    border: 1px solid;
+    color: #F5E876;
+}
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMainHeading, .aboutParagraph, .aboutLibraryHeading {
+    margin: 0
+}
+
+.aboutParagraph {
+    text-align: center;
+    line-height: 20px;
+}
+
+.librariesWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
