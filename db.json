@@ -12,6 +12,10 @@
         {
           "username": "Aldis",
           "comment": "Nice movie!"
+        },
+        {
+          "username": "User",
+          "comment": "Comment"
         }
       ]
     },
@@ -23,8 +27,7 @@
       "genre": "Crime",
       "rating": "4.9",
       "plotSummary": "Interwoven stories of crime, redemption, and the search for a mysterious briefcase.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 3,
@@ -34,8 +37,7 @@
       "genre": "Action",
       "rating": "4.8",
       "plotSummary": "Batman faces the Joker, a criminal mastermind with a dark sense of humor.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 4,
@@ -45,8 +47,7 @@
       "genre": "Drama",
       "rating": "4.6",
       "plotSummary": "The life story of a man with low intelligence who witnesses and unwittingly influences historical events.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 5,
@@ -56,8 +57,7 @@
       "genre": "Sci-Fi",
       "rating": "4.8",
       "plotSummary": "A thief enters the dreams of others to steal their deepest secrets.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 6,
@@ -67,8 +67,7 @@
       "genre": "Drama",
       "rating": "4.9",
       "plotSummary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 7,
@@ -78,8 +77,7 @@
       "genre": "Crime",
       "rating": "4.9",
       "plotSummary": "The patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 8,
@@ -89,8 +87,7 @@
       "genre": "Fantasy",
       "rating": "4.7",
       "plotSummary": "A young hobbit, Frodo, must destroy a powerful ring to save Middle-earth from the Dark Lord Sauron.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 9,
@@ -100,8 +97,7 @@
       "genre": "Sci-Fi",
       "rating": "4.6",
       "plotSummary": "A farm boy, a princess, and a smuggler join the Rebel Alliance to defeat the evil Galactic Empire.",
-      "comments": [
-      ]
+      "comments": []
     },
     {
       "id": 10,
@@ -111,8 +107,7 @@
       "genre": "Drama",
       "rating": "4.9",
       "plotSummary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "comments": [
-      ]
+      "comments": []
     }
   ]
 }
