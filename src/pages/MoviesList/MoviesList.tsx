@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useGetMovies } from './hooks/useGetMovies';
 
 import Style from './MoviesList.module.css';
@@ -11,16 +12,20 @@ export type Movie = {
   genre: string;
   rating: string;
   plotSummary: string;
-  comments: string[];
+  comments: {
+    username: string;
+    comment: string;
+  }[];
 };
 
 const MoviesList = () => {
   const { isLoading, isError, data: movies } = useGetMovies();
+  const { t } = useTranslation();
 
   return (
     <div className={Style.moviesListWrapper}>
-      {isLoading && <h3 className={Style.moviesHeading}>Loading movies</h3>}
-      {isError && <h3>Error, couldnt get the movies</h3>}
+      {isLoading && <h3>{t('moviesList:messages:loading')}</h3>}
+      {isError && <h3>{t('moviesList:messages:error')}</h3>}
       {movies && (
         <>
           {movies.map((movie) => (

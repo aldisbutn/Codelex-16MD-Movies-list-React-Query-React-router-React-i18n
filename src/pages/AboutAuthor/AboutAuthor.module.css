@@ -1,5 +1,9 @@
 .aboutWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutParagraph {
+  text-align: center;
 }

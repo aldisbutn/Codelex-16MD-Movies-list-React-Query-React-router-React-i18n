@@ -1,33 +1,37 @@
 .movieWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
 .movieCardWrapper {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    max-width: 430px;
-    padding: 10px;
-    background-color: #222222;
-    border-radius: 5px;
-    border: 1px dotted #F5E876;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  max-width: 430px;
+  padding: 10px;
+  background-color: #222222;
+  border-radius: 5px;
+  border: 1px dotted #f5e876;
 }
 
-.commentsWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+.usernameTextarea {
+  width: 100%;
+  max-width: 150px;
+  height: 15px;
+  resize: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
 }
 
 .commentTextarea {
-    width: 420px;
-    height: 100px;
-    border-radius: 5px;
-    resize: none;
-    padding: 5px;
+  width: 420px;
+  height: 100px;
+  border-radius: 5px;
+  resize: none;
+  padding: 5px;
+  outline: none;
 }

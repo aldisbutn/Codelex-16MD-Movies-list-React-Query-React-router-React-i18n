@@ -1,11 +1,13 @@
-import Style from './AboutAuthor.module.css'
+import { useTranslation } from 'react-i18next';
+import Style from './AboutAuthor.module.css';
 
 const AboutAuthor = () => {
-    return (
-        <div className={Style.aboutWrapper}>
-            <h3>Hey, here should be some info about me!</h3>
-        </div>
-    );
+  const { t } = useTranslation();
+  return (
+    <div className={Style.aboutWrapper}>
+      <p className={Style.aboutParagraph}>{t('aboutAuthor:paragraph:about')}</p>
+    </div>
+  );
 };
 
 export default AboutAuthor;

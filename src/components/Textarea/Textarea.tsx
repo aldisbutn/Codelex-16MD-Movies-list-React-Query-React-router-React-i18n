@@ -3,7 +3,7 @@ type TextareaProps = {
   className: string;
   placeholder: string;
   value: string;
-  onChange: (e:React.ChangeEvent<HTMLTextAreaElement>) => void;
+  onChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
 };
 
 export const Textarea = ({ name, className, placeholder, value, onChange }: TextareaProps) => {

@@ -1,10 +1,10 @@
-import Style from './Button.module.css'
+import Style from './Button.module.css';
 
 type ButtonProps = {
   type?: HTMLButtonElement['type'];
   onClick?: () => void;
   text: string;
-  styleType: string
+  styleType: string;
 };
 
 export const Button = ({ type = 'button', onClick, text, styleType }: ButtonProps) => {

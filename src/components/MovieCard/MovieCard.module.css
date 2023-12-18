@@ -1,12 +1,32 @@
-.movieInfo {
-    display: flex;
-    flex-direction: column;
+.movieInfo,
+.commentWrapper,
+.commentsWrapper {
+  display: flex;
+  flex-direction: column;
 }
 
-.headingMain, .headingSecondary {
-    margin: 0;
+.headingMain,
+.headingSecondary,
+.headingUsername,
+.paragraphComment {
+  margin: 0;
 }
 
 .headingSecondary {
-    color: #f3eba2;
+  color: #f3eba2;
+}
+
+.headingUsername,
+.paragraphComment {
+  text-align: left;
+}
+
+.commentWrapper {
+  background-color: #333333;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.commentsWrapper {
+  gap: 5px;
 }

@@ -1,5 +1,9 @@
 body {
   background-color: #111111;
   font-family: 'Roboto', sans-serif;
-  color: #EFEFEF;
+  color: #efefef;
+}
+
+#root {
+  white-space: pre-line;
 }
